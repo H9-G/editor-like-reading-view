@@ -1,0 +1,10 @@
+{
+  "id": "editor-like-reading-view",
+  "name": "Editor-like Reading View",
+  "version": "1.0.0",
+  "minAppVersion": "1.13.0",
+  "description": "Show reading view the way the editor shows your note: every empty line, indentation, several spaces and tabs, also in lists, quotes and callouts. Each part can be turned on or off.",
+  "author": "H9-",
+  "isDesktopOnly": false,
+  "fundingUrl": "https://buymeacoffee.com/imh9"
+}

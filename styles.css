@@ -1,0 +1,18 @@
+/* Extra empty lines between blocks: one line of space for each empty line after the first. */
+.markdown-preview-view .elrv-blank-before::before {
+  content: "";
+  display: block;
+  height: calc(var(--elrv-lines, 0) * var(--line-height-normal, 1.5) * 1em);
+  margin-top: calc(-1 * var(--p-spacing, 1rem));
+}
+
+/* Empty lines between list items and at the start of the note: every empty line is a line of space. */
+.markdown-rendered .elrv-gap-before {
+  padding-top: calc(var(--elrv-lines, 0) * var(--line-height-normal, 1.5) * 1em);
+}
+
+/* Extra empty lines inside quotes and callouts. */
+.markdown-rendered .elrv-blank {
+  margin: calc(-1 * var(--p-spacing, 1rem)) 0 0;
+  line-height: var(--line-height-normal, 1.5);
+}
